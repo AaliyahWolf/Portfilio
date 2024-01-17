@@ -48,23 +48,19 @@
             padding: 1em;
             background-color: #333;
             color: #fff;
-        }
-        .image-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 20px;
+        table {
+            border-collapse: collapse;
+            width: 100%;
         }
 
-        .image-container img {
-            width: 30%; /* Adjust the width as needed */
-            margin-bottom: 10px;
-        }
-
-        .image-container p {
-            width: 30%; /* Adjust the width as needed */
+        th, td {
+            border: none;
+            padding: 8px;
             text-align: center;
-            margin: 0 auto;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
     </style>
 </head>
@@ -91,21 +87,27 @@
 
         <section id="portfolio">
             <h2>Artworks</h2>
-            <div class="image-container">
-            <div>
-                <img src="https://cdn.discordapp.com/attachments/1178445410512146563/1197263906264076399/Ashley_Roo_bean_full_transparent_w_bg.png" alt="Ashley, a Kangaroo, sitting on a beanbag">
-                <p>Gift art to <a href="https://www.twitch.tv/ashleytheroo" target="_blank">Ashley The Roo</a>, she mentioned that she loved to have a bean bag, and so I drew her on one drinking the Estrogen soda!</p>
-            </div>
-            <div>
-                <img src="https://media.discordapp.net/attachments/1178445410512146563/1197264332443091034/Hands_Forward_Clown.png" alt="Art of TeeTheClown with hands up">
-                <p><a href="https://www.twitch.tv/teetheclown" target="_blank">Tee the clown</a> commissioned a banner art of their clown character from a pose in FNAF meme.</p>
-            </div>
-            <div>
-                <img src="https://media.discordapp.net/attachments/1178445410512146563/1197264048341917726/Chibi_friendly_Windigo.png" alt="Chibi windigo with flower crown">
-                <p>PFP of a friendly Wendigo for <a href="https://www.twitch.tv/iciekun" target="_blank">Iciekun</a>, was commissioned by <a href="https://www.twitch.tv/oniwithagodcomplex" target="_blank">OniWithAGodComplex</a> for Iciekun's birthday.</p>
-            </div>
-        </div>
-        </section>
+                <table>
+        <thead>
+            <tr>
+                <th>Ashley the Roo</th>
+                <th>Tee the Clown</th>
+                <th>Iciekun</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://cdn.discordapp.com/attachments/1178445410512146563/1197263906264076399/Ashley_Roo_bean_full_transparent_w_bg.png" alt="Ashley, a Kangaroo, sitting on a beanbag"></td>
+                <td><img src="https://media.discordapp.net/attachments/1178445410512146563/1197264332443091034/Hands_Forward_Clown.png" alt="Art of TeeTheClown with hands up"></td>
+                <td><img src="https://media.discordapp.net/attachments/1178445410512146563/1197264048341917726/Chibi_friendly_Windigo.png" alt="Chibi windigo with flower crown"></td>
+            </tr>
+            <tr>
+                <td><p>Gift art to <a href="https://www.twitch.tv/ashleytheroo" target="_blank">Ashley The Roo</a>, she mentioned that she loved to have a bean bag, and so I drew her on one drinking the Estrogen soda!</p></td>
+                <td><a href="https://www.twitch.tv/teetheclown" target="_blank">Tee the clown</a> commissioned a banner art of their clown character from a pose in FNAF meme.</p></td>
+                <td><p>PFP of a friendly Wendigo for <a href="https://www.twitch.tv/iciekun" target="_blank">Iciekun</a>, was commissioned by <a href="https://www.twitch.tv/oniwithagodcomplex" target="_blank">OniWithAGodComplex</a> for Iciekun's birthday.</p></td>
+            </tr>
+        </tbody>
+    </table>
 
         <section id="characters">
             <h2>My OCs</h2>
