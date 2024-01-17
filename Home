@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaliyah Wolf - Furry Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        main {
+            padding: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aaliyah Wolf - Furry Artist</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#stream">Twitch Stream</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Aaliyah Wolf</h2>
+            <p>Welcome to the world of Aaliyah Wolf, a talented furry artist who brings imagination to life through art.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Art Portfolio</h2>
+            <p>Explore Aaliyah's unique and captivating furry art creations.</p>
+            <!-- Add images or gallery here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Aaliyah</h2>
+            <p>For inquiries or collaborations, feel free to reach out to Aaliyah Wolf.</p>
+            <!-- Add contact information or form here -->
+        </section>
+
+        <section id="stream">
+            <h2>Twitch Stream</h2>
+            <p>Watch Aaliyah Wolf create amazing art live on Twitch.</p>
+            <!-- Add Twitch stream embed or link here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aaliyah Wolf - Furry Artist</p>
+    </footer>
+</body>
+</html>
